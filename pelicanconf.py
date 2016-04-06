@@ -8,23 +8,23 @@ sys.path.append(os.curdir)
 
 from collections import OrderedDict
 
-AUTHOR = u'Grupy-DF'
-SITENAME = u'Grupy-DF'
+AUTHOR = u'PUG-PE'
+SITENAME = u'PUG-PE'
 SITEURL = ''
 
-META_DESCRIPTION = '''O Grupy-DF é uma comunidade de usuários (profissionais e
+META_DESCRIPTION = '''O PUG-PE é uma comunidade de usuários (profissionais e
                       amadores) da linguagem Python, onde prezamos pela troca de
                       conhecimento, respeito mútuo e diversidade (tanto de opinião
                       quanto de tecnologias).'''
 
-META_KEYWORDS = ['grupy-df', 'python', 'brasilia', 'desenvolvimento']
+META_KEYWORDS = ['pug-pe', 'pugpe', 'python', 'pernambuco', 'desenvolvimento']
 
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'America/Recife'
 THEME = 'themes/malt'
 MALT_BASE_COLOR = 'green'
 
 SITE_LOGO = 'images/logo/logo.png'
-SITE_LOGO_MOBILE = 'images/logo/logo-inv.png'
+SITE_LOGO_MOBILE = 'images/logo/logo.png'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
@@ -32,7 +32,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 WELCOME_TITLE = 'Seja bem vindo ao {}!'.format(SITENAME)
 WELCOME_TEXT = 'Grupo de usuários da linguagem Python no Distrito Federal.'
 SITE_BACKGROUND_IMAGE = 'images/banners/ponte-jk.jpg'
-FOOTER_ABOUT = '''O Grupy-DF é uma comunidade de usuários (profissionais e
+FOOTER_ABOUT = '''O PUG-PE é uma comunidade de usuários (profissionais e
                   amadores) da linguagem Python, onde prezamos pela troca de
                   conhecimento, respeito mútuo e diversidade (tanto de opinião
                   quanto de tecnologias).'''
@@ -98,13 +98,17 @@ SITEMAP = {
     },
 }
 
-GITHUB_REPO = "http://github.com/grupydf/grupydf.github.io"
+GITHUB_REPO = "http://github.com/pugpe/pugpe.github.io"
 GITHUB_BRANCH = "pelican"
-TWITTER = "@grupydf"
-OPEN_GRAPH_IMAGE = "/images/logo/logo-inv.png"
+TWITTER = "@pugpe"
+OPEN_GRAPH_IMAGE = "/images/logo/logo.png"
 
 # Navbar Links
 NAVBAR_HOME_LINKS = [
+    {
+        "title": "Eventos",
+        "href": "http://pycon.pug.pe",
+    },
     {
         "title": "Comunidade",
         "href": "comunidade",
@@ -136,96 +140,34 @@ NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
 
 SOCIAL_LINKS = (
     {
-        "href": "https://telegram.me/joinchat/AG9QCABLx9wgYM1bcoGxgQ",
-        "icon": "fa-paper-plane",
-        "text": "Telegram",
-    },
-    {
-        "href": "https://github.com/grupydf",
+        "href": "https://github.com/pugpe",
         "icon": "fa-github",
         "text": "GitHub",
     },
     {
-        "href": "https://twitter.com/grupydf",
+        "href": "https://twitter.com/pugpe",
         "icon": "fa-twitter",
         "text": "Twitter",
     },
     {
-        "href": "https://www.facebook.com/groups/grupydf",
+        "href": "https://www.facebook.com/pugpe",
         "icon": "fa-facebook",
         "text": "Facebook",
     },
     {
-        "href": "https://groups.google.com/forum/#!forum/grupy-df",
+        "href": "https://groups.google.com/forum/#!forum/pugpe",
         "icon": "fa-envelope",
         "text": "Mailing List",
     },
 )
 
 MEMBROS = OrderedDict((
-    ("Biguá", {
-        "email": "bigua.kun@gmail.com",
-        "twitter": "@pixeledbird",
-        "github": "bigua"
-        }),
-    ("Eduardo Henrique", {
-        "email": "eduardohitek@gmail.com",
-        "twitter": "@eduardohitek",
-        "github": "eduardohitek"
-        }),
-    ("Gabriel Miranda", {
-        "email": "gabrielm.car@gmail.com",
-        "twitter": "@gblmiranda",
-        "github": "gblmiranda"
-        }),
-    ("Humberto Rocha", {
-        "email": "humrochagf@gmail.com",
-        "twitter": "@humrochagf",
-        "github": "humrochagf"
-        }),
-    ("Marco Rougeth", {
-        "email": "marco@rougeth.com",
-        "twitter": "@marcorougeth",
-        "github": "rougeth"
-        }),
-    ("Mário Sérgio", {
-        "email": "sergio.mario_q@hotmail.com",
-        "twitter": "@queirozMario21",
-        "github": "sergiomario"
-        }),
-    ("Pedro Henrique", {
-        "email": "pedrohenriqueacruz@gmail.com",
-        "twitter": "@phinfonet",
-        "github": "phinfonet"
-        }),
-    ("Gilson Filho", {
-        "email": "me@gilsondev.in",
-        "twitter": "@gilsonfilho",
-        "github": "gilsondev"
-        }),
-    ("Dirley Rodrigues", {
-        "twitter": "@dirleyrls",
-        "github": "ravishi"
-        }),
-    ("Wagner Santos", {
-        "email": "wagnerjs.unb@gmail.com",
-        "twitter": "@wagnerjsantos",
-        "github": "wagnerjs"
-        }),
-    ("Israel P. Siqueira", {
-        "email": "israelps@gmail.com",
-        "twitter": "@israelps",
-        "github": "israelps"
-        }),
-    ("Magnun Leno", {
-        "email": "magnun.leno@gmail.com",
-        "twitter": "@mind_bend",
-        "github": "magnunleno",
-        "site": {
-            "nome": "Mind Bending",
-            "href": "http://mindbending.org",
-            }
-        })
+    ("Gileno", {
+        "email": "contato@gilenofilho.com.br",
+        "twitter": "@gilenofilho",
+        "github": "gileno"
+        }
+    ),
 ))
 
 MALT_HOME = [
@@ -236,10 +178,9 @@ MALT_HOME = [
             {
                 "title": "Comunidade",
                 "icon": "fa-comments",
-                "text": "A comunidade do GrupyDF se comunica através de mailing " +\
-                    "lists e do grupo no telegram mas frequentemente são " +\
-                    "promovidos encontros diversos, como almoços, " +\
-                    "<em>coding dojos</em> e palestras. ",
+                "text": "A comunidade do PUG-PE se comunica através de mailing " +\
+                    "lists e na página do facebook mas frequentemente são " +\
+                    "promovidos encontros diversos.",
                 "buttons": [
                     {
                         "text": "Saiba Mais",
@@ -250,7 +191,7 @@ MALT_HOME = [
             {
                 "title": "Membros",
                 "icon": "fa-users",
-                "text": "A comunidade do GrupyDF, apesar de extensa possui alguns " +\
+                "text": "A comunidade do PUG-PE, apesar de extensa possui alguns " +\
                         "colaboradores principais, responsáveis por organizar " +\
                         "eventos, manter a comunicação ativa, divulgar eventos, " +\
                         "redes sociais e etc. ",
@@ -260,19 +201,7 @@ MALT_HOME = [
                         "href": "membros",
                     },
                 ],
-            },
-            {
-                "title": "Projetos",
-                "icon": "fa-briefcase",
-                "text": " Atualmente o GrupyDF possui poucos projetos em andamento:" +\
-                        "Traduções do Django-docs e Python on Campus.",
-                "buttons": [
-                    {
-                        "text": "Mais detalhes",
-                        "href": "projetos",
-                    },
-                ],
-            },
+            }
         ]
     },
 ]

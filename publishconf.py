@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://grupydf.github.io'
+SITEURL = 'http://pugpe.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'blog/feeds.atom'
@@ -18,7 +18,7 @@ FEED_ALL_RSS = 'blog/feeds.rss'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISQUS_SITENAME = "grupydf"
+DISQUS_SITENAME = "pugpe"
 DISQUS_NO_ID = True
 
 # Following items are often useful when publishing

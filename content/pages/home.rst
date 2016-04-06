@@ -1,4 +1,4 @@
-Grupy-DF
+PUG-PE
 #########
 :slug: index
 :template: home
