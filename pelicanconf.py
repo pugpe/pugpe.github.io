@@ -31,7 +31,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 WELCOME_TITLE = 'Seja bem vindo ao {}!'.format(SITENAME)
 WELCOME_TEXT = 'Grupo de usuários da linguagem Python no Distrito Federal.'
-SITE_BACKGROUND_IMAGE = 'images/banners/ponte-jk.jpg'
+SITE_BACKGROUND_IMAGE = 'images/foto-bairrorecife.jpg'
 FOOTER_ABOUT = '''O PUG-PE é uma comunidade de usuários (profissionais e
                   amadores) da linguagem Python, onde prezamos pela troca de
                   conhecimento, respeito mútuo e diversidade (tanto de opinião
@@ -201,7 +201,18 @@ MALT_HOME = [
                         "href": "membros",
                     },
                 ],
-            }
+            },
+            {
+                "title": "Projetos",
+                "icon": "fa-briefcase",
+                "text": "Os projetos do PUG-PE estão no seu github: @pugpe",
+                "buttons": [
+                    {
+                        "text": "Mais detalhes",
+                        "href": "#",
+                    },
+                ],
+            },
         ]
     },
 ]
