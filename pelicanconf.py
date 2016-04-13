@@ -106,10 +106,6 @@ OPEN_GRAPH_IMAGE = "/images/logo/logo.png"
 # Navbar Links
 NAVBAR_HOME_LINKS = [
     {
-        "title": "Eventos",
-        "href": "http://pycon.pug.pe",
-    },
-    {
         "title": "Comunidade",
         "href": "comunidade",
     },
@@ -162,7 +158,7 @@ SOCIAL_LINKS = (
 )
 
 MEMBROS = OrderedDict((
-    ("Gileno", {
+    ("Gileno Filho", {
         "email": "contato@gilenofilho.com.br",
         "twitter": "@gilenofilho",
         "github": "gileno"
