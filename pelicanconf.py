@@ -164,6 +164,12 @@ MEMBROS = OrderedDict((
         "github": "gileno"
         }
     ),
+    ("Rodrigo Lira", { 
+	"email": "rodrigocliras@gmail.com",
+	"twitter": "@rodrigoclira", 
+	"github": "rodrigoclira"
+	}
+    ),
 ))
 
 MALT_HOME = [
