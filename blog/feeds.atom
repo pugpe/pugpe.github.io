@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PUG-PE</title><link href="http://pugpe.github.io/" rel="alternate"></link><link href="http://pugpe.github.io/blog/feeds.atom" rel="self"></link><id>http://pugpe.github.io/</id><updated>2016-04-13T14:00:00-03:00</updated><entry><title>43º Encontro realizado na Jump Brasil</title><link href="http://pugpe.github.io/blog/43-encontro-realizado-na-jump-brasil" rel="alternate"></link><updated>2016-04-13T14:00:00-03:00</updated><author><name>Gileno Filho</name></author><id>tag:pugpe.github.io,2016-04-13:blog/43-encontro-realizado-na-jump-brasil</id><summary type="html">&lt;html&gt;&lt;body&gt;&lt;p&gt;Olá pessoal, na última quinta-feira (07/04) foi realizado mais um encontro do PUG-PE, o 43º. Ele aconteceu na &lt;a href="http://www.jumpbrasil.com/"&gt;Jump Brasil&lt;/a&gt; e teve palestras as seguintes palestras:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/presentation/d/18SIdi9sNFJz2IC6Vwxf_XfcewFbjXC6DX1aKBsDxBUE/edit#slide=id.p"&gt;Organizando o requirements.txt de forma Pythonica, sério é da hora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lucasicf.github.io/presentations/shell_python_en.html"&gt;Cansado de Shell Script? Alternativas em Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A partir de agora todos os eventos serão publicados neste blog para manter a referência.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</summary><category term="jump-brasil"></category><category term="evento"></category></entry></feed>
